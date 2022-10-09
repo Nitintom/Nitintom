@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title>Food Munch</title>
+</head>
+<body>
+
+	<div class="head">
+	<div class="container-new">
+		<div class="left">
+			<h3>BILLING ADDRESS</h3>
+			<form>
+				Full name
+				<input type="text" name="" placeholder="Enter name">
+				Email
+				<input type="text" name="" placeholder="Enter email">
+
+				Address
+				<input type="text" name="" placeholder="Enter address">
+				
+				City
+				<input type="text" name="" placeholder="Enter City">
+				<div id="zip">
+					<label>
+						State
+						<select>
+							<option>Choose State..</option>
+							<option>Rajasthan</option>
+							<option>Hariyana</option>
+							<option>Uttar Pradesh</option>
+							<option>Madhya Pradesh</option>
+						</select>
+					</label>
+						<label>
+						Zip code
+						<input type="number" name="" placeholder="Zip code">
+					</label>
+				</div>
+			</form>
+		</div>
+		<div class="right">
+			<h3>PAYMENT</h3>
+			<form>
+				Accepted Card <br>
+				<img src="/image/card1.png" width="100">
+				<img src="/image/card2.png" width="50">
+				<br><br>
+
+				Credit card number
+			<input type="text" name="" placeholder="Enter card number">
+				
+				Exp month
+				<input type="text" name="" placeholder="Enter Month">
+				<div id="zip">
+					<label>
+						Exp year
+						<select>
+							<option>Choose Year..</option>
+							<option>2022</option>
+							<option>2023</option>
+							<option>2024</option>
+							<option>2025</option>
+						</select>
+					</label>
+						<label>
+						CVV
+						<input type="number" name="" placeholder="CVV">
+					</label>
+				</div>
+			</form>
+			<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg m-auto" data-toggle="modal" data-target="#exampleModal">
+	Proceed to Checkout
+  </button>
+  <a href="/new-index.html"> 
+  <button type="button" class="btn btn-primary btn-lg m-auto" data-toggle="modal" data-target="#exampleModal">
+	Back
+  </button>
+</a>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Thankyou</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  <img src="https://img.freepik.com/free-vector/thank-you-wedding-card-template_23-2148690044.jpg?size=626&ext=jpg&ga=GA1.2.1202610111.1664561138" class="w-100">
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  
+		</div>
+	  </div>
+	</div>
+  
+	</div>
+</div>
+</body>
+</html>
